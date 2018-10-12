@@ -9,6 +9,10 @@
     <h3><%= @team.name %></h3><br>
     <h4><%= @team.motto %></h4>
   </div><br>
+  
+  <% @superhero.each do |h, index| %>
+  <% if index == 0 %>
+  <h2>Hero Name: <%= @superhero.name %></h2>
  
 
 
