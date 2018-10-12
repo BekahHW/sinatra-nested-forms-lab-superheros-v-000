@@ -13,6 +13,8 @@ class App < Sinatra::Base
     @team = Team.new(params[:team])
     
     
+    
+    
     erb :team
   end
   
